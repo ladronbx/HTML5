@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(222, 222, 222);
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.web{
+    border: 5px solid rgb(222, 222, 222);
+    background-color: white;
+    border-radius: 40px; /*Por qué sólo redondea las esquinas de abajo y no todas????*/
+    border-top-left-radius: 40px; /* Redondea la esquina superior izquierda */
+    border-top-right-radius: 40px; /* Redondea la esquina superior derecha */
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    letter-spacing: 10px;
+    text-align: center;
+    color: rgb(131, 171, 42);
+}
+
+#sierra {
+    color: rgb(179, 135, 32);
+}
+
+.container {
+    width: 100%;
+    background-color: white;
+    border-radius: 40;
+    clear: both; /* Evita problemas de flotación */
+}
+
+.menu {
+    float: left;
+    width: 20%;
+}
+
+.texto {
+    float: right;
+    width: 80%;
+    padding: 70px;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+    background-color: rgb(100, 199, 199);
+}
+
+h2 {
+    clear: right;
+}
+
+hr {
+    margin-top: -20px;
+    margin-bottom: 30px;
+    clear: both;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+footer {
+    color: lightgray;
+    padding: 10px;
+    text-align: center; /* Centra el texto en el footer */
+    clear: both; /* Añade un clear para que el footer quede debajo de .container */
+}
+
+/*la página tendrá un
+ancho fijo de 900px, centrada en
+la ventana.*/
+
+/*
+La imagen que aparece en el encabezado de la página, la hemos creado a partir de la imagen
+panoramica.jpg, que puedes encontrar en la carpeta del drive.*/
+/*
+Esta imagen es propiedad de AMagill, un usuario de Flickr, y se utiliza bajo licencia
+CreativeCommons. Observa que lo indicamos al pie de la página.
+Las imágenes que forman parte del diseño, las hemos creado nosotros. Observa que las
+esquinas del body son redondeadas, que el contenido tiene un degradado arriba y abajo, y
+los elementos del menú. Tendrás que crear esas imágenes.
+*Reto 10
+*/
+
+

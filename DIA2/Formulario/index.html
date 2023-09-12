@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>FORMULARIO</h1>
+    <p>Tarea:
+        Genera un formulario de registro en HTML en el cual tengas 6 campos, nombre, apellidos, telefono, email,
+        password y fecha de nacimiento.</p>
+    <p>
+    <div class="container">
+        <div class="registro">
+            <h2>Registro</h2>
+            <form action="index.html" method="GET">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="lastname">Apellidos:</label>
+                <input type="text" id="lastname" name="lastname" required>
+
+                <label for="name">Número de teléfono:</label>
+                <input type="number" id="number" name="number" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="birthdate">Fecha de nacimiento:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+                <br>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
