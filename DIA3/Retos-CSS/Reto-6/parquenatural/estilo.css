@@ -7,7 +7,7 @@ body {
     height: 20px;
 }
 
-.web {
+.container {
     background-color: white;
     border-radius: 25px;
     border-top-left-radius: 40px;
@@ -18,7 +18,7 @@ img {
     width: 100%;
 }
 
-h1 {
+.titulo-1 {
     letter-spacing: 10px;
     text-align: center;
     color: rgb(131, 171, 42);
@@ -28,12 +28,11 @@ h1 {
     color: rgb(179, 135, 32);
 }
 
-.container {
+.container-2 {
     width: 100%;
     background-color: white;
     border-radius: 40px;
     clear: both;
-    /* Evita problemas de flotación */
 }
 
 .menu {
@@ -41,7 +40,7 @@ h1 {
     width: 20%;
 }
 
-.texto {
+.textos {
     float: right;
     width: 80%;
     padding: 70px;
@@ -51,7 +50,7 @@ h1 {
 
 }
 
-h2 {
+.titulo-2 {
     clear: right;
     color: green;
 }
@@ -63,7 +62,7 @@ hr {
     clear: both;
 }
 
-p {
+#texto {
     margin-bottom: 20px;
 }
 
@@ -83,7 +82,7 @@ p {
     margin-right: 40%;
 }
 
-footer {
+.footer {
     color: lightgray;
     padding: 10px;
     text-align: center;
