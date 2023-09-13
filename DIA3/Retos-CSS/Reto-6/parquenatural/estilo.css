@@ -1,24 +1,44 @@
 body {
-    background-color: rgb(222, 222, 222);
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#top {
-    height: 20px;
-}
-
-.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    border-radius: 25px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+
+    margin: 0;
+    padding: 0;
+
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-principal {
+    width: 900px;
+    padding: 0.5em;
+    margin: 0;
+    background-color: rgb(222, 222, 222);
+
+}
+
+
+.header {
+    padding-top: 2em;
+    width: 100%;
 }
 
 img {
     width: 100%;
 }
 
+.container {
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+
 .titulo-1 {
+    font-size: x-large;
+    font-weight: bold;
     letter-spacing: 10px;
     text-align: center;
     color: rgb(131, 171, 42);
@@ -29,78 +49,127 @@ img {
 }
 
 .container-2 {
+    display: flex;
+    padding: 0.5em;
     width: 100%;
-    background-color: white;
     border-radius: 40px;
-    clear: both;
 }
 
 .menu {
-    float: left;
+    padding: 0.5em;
     width: 20%;
+}
+.titulo-2 {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(131, 171, 42);
+    margin-top: 1em;
+}
+.titulo-3 {
+    color: rgb(192, 145, 70);
 }
 
 .textos {
-    float: right;
-    width: 80%;
-    padding: 70px;
+    padding: 0.5em;
+    width: 75%;
     border: 1px solid rgb(170, 166, 166);
     box-sizing: border-box;
-    background-color: rgba(130, 144, 144, 0.267);
 
+    background: linear-gradient(0deg,
+            rgb(214, 214, 214) 0%,
+            white 8%,
+            white 93%,
+            rgb(214, 214, 214) 100%);
+    
 }
 
-.titulo-2 {
-    clear: right;
-    color: green;
-}
+
 
 hr {
-    margin-top: -20px;
-    margin-bottom: 30px;
     color: black;
-    clear: both;
 }
 
 #texto {
     margin-bottom: 20px;
 }
+#espacio{
+    width: 100%;
+    height: 1em;
+}
+.menu {
+    margin-right: 0.5em;
+}
 
-.inicio{
-    background-color: rgb(236, 255, 127);
-    padding: 10px 40px 10px 30px;
-    margin-right: 40%;
+a{
+    text-decoration: none;
+    color: black;
 }
-.especies{
-    background-color: rgb(236, 255, 127);
-    padding: 10px 40px 10px 30px;
-    margin-right: 40%;
+
+a:hover{
+    color: rgb(81, 59, 21);
 }
-.reservas{
-    background-color: rgb(236, 255, 127);
-    padding: 50%;
-    margin-right: 40%;
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg,
+            rgb(209, 189, 157) 1%,
+            white 90%,
+            white 10%);
+    padding: 0.7em;
+    margin-bottom: 1em;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+
+.especies,
+.reservas,
+.galeria {
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg,
+            rgb(131, 171, 42) 1%,
+            white 90%,
+            white 10%);
+    padding: 0.7em;
+    border: 1px solid rgb(131, 171, 42);
+}
+
+.especies-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg,
+            rgb(209, 189, 157) 1%,
+            white 90%,
+            white 10%);
+    padding: 0.7em;
+    margin-bottom: 1em;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+
+.inicio-2{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg,
+            rgb(131, 171, 42) 1%,
+            white 90%,
+            white 10%);
+    padding: 0.7em;
+    border: 1px solid rgb(131, 171, 42);
 }
 
 .footer {
     color: lightgray;
-    padding: 10px;
+    padding: 0.5em;
     text-align: center;
-    clear: both;
+    font-size: small;
 }
-
-/*la página tendrá un
-ancho fijo de 900px, centrada en
-la ventana.*/
-
-/*
-La imagen que aparece en el encabezado de la página, la hemos creado a partir de la imagen
-panoramica.jpg, que puedes encontrar en la carpeta del drive.*/
-/*
-Esta imagen es propiedad de AMagill, un usuario de Flickr, y se utiliza bajo licencia
-CreativeCommons. Observa que lo indicamos al pie de la página.
-Las imágenes que forman parte del diseño, las hemos creado nosotros. Observa que las
-esquinas del body son redondeadas, que el contenido tiene un degradado arriba y abajo, y
-los elementos del menú. Tendrás que crear esas imágenes.
-*Reto 10
-*/
